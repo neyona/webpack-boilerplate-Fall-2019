@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 const App = () => {
   return (
     <div>
-      <p>React here!</p>
+      <p>This is the App file in the source folder.</p>
     </div>
   );
 };
