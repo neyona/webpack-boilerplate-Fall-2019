@@ -1,11 +1,10 @@
 # wepack-boilerplate-Fall-2019
 A React Webpack to use as a Boilerplate. It is from early Fall 2019 for reference and updates.
 
-This webpack was made using this site https://www.valentinog.com/blog/webpack/ (thank you Valentino Gagliardi) and yarn.
-For Yarn and installation, I used the following commands in the following order:
+This webpack was made using this site https://www.valentinog.com/blog/webpack/ (thank you Valentino Gagliardi) and yarn. The webpack is set up to support HTML, CSS, Images, and routing if needed. For Yarn and installation, I used the following commands in this order:
 
-cd <into the file I want to use>
-mkdir webpack && cd webpack
+cd <into the file where I will place my project>
+mkdir <whatever I decide to call this file> && cd <whatever I decide to call this file>
 yarn init
 yarn add webpack --dev
 yarn add webpack-cli --dev
@@ -29,6 +28,7 @@ yarn add mini-css-extract-plugin css-loader --dev
 touch src/main.css
 yarn run build
 yarn add webpack-dev-server --dev
+yarn add file-loader --dev  
 yarn run start
 
 I also run the command 'yarn audit' when building the webpack to see if the packages are up to date and running well.
