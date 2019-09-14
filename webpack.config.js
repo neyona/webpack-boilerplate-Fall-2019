@@ -23,8 +23,24 @@ module.exports = {
       {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, "css-loader"]
+    },
+    {
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+            'file-loader',
+            {
+                loader: 'image-webpack-loader',
+                options: {
+                    bypassOnDebug: true, // webpack@1.x
+                    disable: true, // webpack@2.x and newer
+                },
+            },
+        ]
       }
     ]
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
