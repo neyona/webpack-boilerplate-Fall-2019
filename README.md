@@ -28,7 +28,10 @@ yarn add mini-css-extract-plugin css-loader --dev
 touch src/main.css
 yarn run build
 yarn add webpack-dev-server --dev
-yarn add image-webpack-loader --dev  
-yarn run start
+yarn add file-loader --dev  
+yarn add image-webpack-loader --dev
+yarn run build  
+yarn run dev 
+yarn start  
 
-I also run the command 'yarn audit' when building the webpack to see if the packages are up to date and running well.
+It will not start without yarn run dev being run first. I also ran the command 'yarn audit' when building the webpack to see if the packages are up to date and running well.
