@@ -1,4 +1,4 @@
-# wepack-boilerplate-Fall-2019
+# webpack-boilerplate-Fall-2019
 A React Webpack to use as a Boilerplate. It is from early Fall 2019 for reference and updates.
 
 This webpack was made using this site https://www.valentinog.com/blog/webpack/ (thank you Valentino Gagliardi) and yarn. The webpack is set up to support HTML, CSS, Images, and routing if needed. For Yarn and installation, I used the following commands in this order:
