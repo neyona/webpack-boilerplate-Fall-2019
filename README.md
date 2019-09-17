@@ -1,7 +1,7 @@
 # webpack-boilerplate-Fall-2019
-A React Webpack to use as a Boilerplate. It is from early Fall 2019 for reference and updates.
+A React Webpack to use as a Boilerplate. It is from early Fall 2019 for reference and updates. When you download it, you can run yarn init to put your own information in the package.json file, then you can run yarn install. Then run yarn run build. Running yarn start or yarn run dev will start it up. I also run yarn audit often to make sure it is all working.
 
-This webpack was made using this site https://www.valentinog.com/blog/webpack/ (thank you Valentino Gagliardi) and yarn. The webpack is set up to support HTML, CSS, Images, and routing if needed. For Yarn and installation, I used the following commands in this order:
+This webpack was made using this site https://www.valentinog.com/blog/webpack/ (thank you Valentino Gagliardi) and yarn. The webpack is set up to support HTML, CSS, Images, and routing if needed. I used the following commands in this order when I made it in the first place:
 
 cd <into the file where I will place my project>
 mkdir <whatever I decide to call this file> && cd <whatever I decide to call this file>
@@ -34,4 +34,4 @@ yarn run build
 yarn run dev 
 yarn start  
 
-It will not start without yarn run dev being run first. I also ran the command 'yarn audit' when building the webpack to see if the packages are up to date and running well.
+Sometimes it will not start without yarn run dev being run first. I also ran the command 'yarn audit' when building the webpack to see if the packages are up to date and running well.
